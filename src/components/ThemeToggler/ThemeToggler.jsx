@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 
 const ThemeToggler = () => {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme("dark");
 
   useEffect(() => {
     setMounted(true);
