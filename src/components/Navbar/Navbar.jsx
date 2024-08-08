@@ -29,7 +29,7 @@ const Navbar = () => {
           </Link>
           <div className="relative flex items-center gap-2">
             {pathname == "/createtoken" && <ThemeToggler />}
-            <div className="block max-lg:hidden">
+            <div className="block">
               {pathname == "/createtoken" ? (
                 <ConnectButton />
               ) : (
