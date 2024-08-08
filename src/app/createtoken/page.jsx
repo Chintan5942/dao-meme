@@ -110,9 +110,9 @@ const page = () => {
       return toast.error("Please connect your wallet.");
     }
     // Check for the correct chain ID
-    // if (chainId !== 97) {
-    //   return toast.error("Please connect to Bsc testnet (Chain ID 97).");
-    // }
+    if (chainId !== 1115) {
+      return toast.error("Please connect to Core Dao testnet (Chain ID 1115).");
+    }
     // Validation logic
     if (!tname || tname.trim() === "") {
       return toast.error("Token name is required.");
@@ -129,11 +129,11 @@ const page = () => {
     if (!address || !Web3.utils.isAddress(address)) {
       return toast.error("Invalid Ethereum address.");
     }
-    if (balance <= 0.003) {
-      return toast.error(
-        `Not Enough Bnb For Transaction Your Balance is ${balance}`
-      );
-    }
+    // if (balance <= 0.003) {
+    //   return toast.error(
+    //     `Not Enough Core Dao Token For Transaction Your Balance is ${balance}`
+    //   );
+    // }
     if (!window.ethereum) {
       return toast.error("Ethereum provider is not available.");
     }
