@@ -59,7 +59,7 @@ const Footer = () => {
             </ul>
             <div className="flex items-center flex-wrap gap-2">
               <p className="text-sm">
-                &copy; {new Date().getFullYear()} Dao Meme
+                &copy; {new Date().getFullYear()} Core Launcher
               </p>
             </div>
           </div>

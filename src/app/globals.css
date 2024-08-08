@@ -95,7 +95,7 @@ body {
 }
 
 [data-testid] .ju367v9i {
-  background: #e99607 !important;
+  background: #ef6c3d !important;
   color: #fff !important;
 }
 
@@ -131,13 +131,13 @@ body {
 
   .button-primary {
     @apply bg-primary-gradient text-sm z-10 before:absolute before:left-0 before:top-0 before:w-full before:h-full before:rounded-3xl before:bg-black before:opacity-0 hover:before:opacity-30 before:transition-all before:duration-300 before:-z-10;
-    background: #e99607 !important;
+    background: #ef6c3d !important;
     color: #fff !important;
   }
 
   .button-dark {
     @apply bg-white dark:bg-black text-black dark:text-white hover:bg-light dark:hover:bg-dark transition-colors duration-300;
-    background: #e99607 !important;
+    background: #ef6c3d !important;
   }
 
   /* CHECKBOX */
@@ -150,13 +150,13 @@ body {
   }
 
   .custom-checkbox:checked {
-    border-color: #e68c17;
+    border-color: #e75a26;
     background-image: linear-gradient(-45deg, transparent 65%, #dc9314 65.99%),
-      linear-gradient(45deg, transparent 75%, #e29118 75.99%),
+      linear-gradient(45deg, transparent 75%, #e75a26 75.99%),
       linear-gradient(-45deg, #ec9f0e 40%, transparent 40.99%),
       linear-gradient(
         45deg,
-        #ed7520 30%,
+        #e75a26 30%,
         #fff 30.99%,
         #fff 40%,
         transparent 40.99%

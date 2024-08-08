@@ -16,7 +16,7 @@ import { WagmiProvider } from "wagmi";
 import { Core_Dao } from "../../static/Chain";
 const { wallets } = getDefaultWallets();
 const config = getDefaultConfig({
-  appName: "Dao Meme",
+  appName: "Core Launcher",
   projectId: "f78ac6b992a6b05b45b21f9b7c349a1d",
   wallets: [
     ...wallets,

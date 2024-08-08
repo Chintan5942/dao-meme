@@ -13,14 +13,14 @@ const Home = () => {
           <WavyBackground>
             <div className="flex h-full items-center">
               <div className="max-w-3xl mx-auto text-center text-white">
-                <h1 className="text-7xl mb-3">Dao Meme</h1>
+                <h1 className="text-7xl mb-3">Core Launcher</h1>
                 <p className="mb-3">
-                  Dao Meme simplifies ERC20 token creation on CoreDAO, offering
-                  customizable tokens and a DeFi Dashboard with real-time
-                  analytics, reducing costs and technical barriers.
+                  Core Launcher simplifies ERC20 token creation on CoreDAO,
+                  offering customizable tokens and a DeFi Dashboard with
+                  real-time analytics, reducing costs and technical barriers.
                 </p>
                 <Link href="/createtoken" className="button button-primary">
-                  Create Token
+                  Launch App
                 </Link>
               </div>
             </div>

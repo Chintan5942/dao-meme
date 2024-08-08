@@ -34,7 +34,7 @@ const Navbar = () => {
                 <ConnectButton />
               ) : (
                 <Link href="/createtoken" className="button button-primary">
-                  Create Token
+                  Launch App
                 </Link>
               )}
             </div>

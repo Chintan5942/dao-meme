@@ -7,8 +7,8 @@ import { Toaster } from "sonner";
 // const bodyFont = IBM_Plex_Mono({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700"] });
 
 export const metadata = {
-  title: "Dao Meme ",
-  description: "Dao Meme",
+  title: "Core Launcher ",
+  description: "Core Launcher",
 };
 
 export default function RootLayout({ children }) {
@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="font-IBM-Plex">
         <Provider>
-        <Toaster closeButton />
+          <Toaster closeButton />
           <TokenDataProvider>{children}</TokenDataProvider>
         </Provider>
       </body>
