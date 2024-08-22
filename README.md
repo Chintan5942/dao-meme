@@ -1,8 +1,13 @@
 # CoreDAO Token Generator and Liquidity Pool Creator
-
+[<img src="https://pbs.twimg.com/media/GUi8XYpWMAA8Lzd?format=jpg&name=large" width="50%">](https://www.youtube.com/watch?v=Te1_SB_eTJU)
 ## Overview
 
 Welcome to the CoreDAO Token Generator and Liquidity Pool Creator! This decentralized application (dApp) allows users to easily create their own ERC20 tokens and set up liquidity pools on the CoreDAO blockchain. The platform leverages the power of CoreDAO's performance, security, and cross-chain interoperability to provide a robust token and liquidity generation experience.
+
+## Links
+- **Demo** : https://core-launcher.netlify.app/
+- **Video** : https://www.youtube.com/watch?v=Te1_SB_eTJU
+- **Git Repo** : https://github.com/Chintan5942/dao-meme
 
 ## Features
 
